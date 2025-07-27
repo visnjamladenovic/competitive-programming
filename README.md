@@ -25,7 +25,12 @@ src/
 My LeetCode profile:https://leetcode.com/u/svevisnja/
 
 #### Arrays and Hashing
-- [Top K Frequent Elements](src/leetcode/arrays_and_hashing/Top_K_Frequent_Elements.java)
+- [Top K Frequent Elements](src/leetcode/arrays_and_hashing/Top_K_Frequent_Elements.java) Difficulty: Medium
+- [Valid Sudoku](src/leetcode/arrays_and_hashing/Valid_Sudoku.java) Difficulty: Medium
+- [Longest Consecutive Sequence](src/leetcode/arrays_and_hashing/Longest_Consecutive_Sequence.java) Difficulty: Medium
+
+#### Linked Lists
+- [Add Two Numbers](src/leetcode/linked_lists/Add_Two_Numbers.java) Difficulty: Medium
 
 ## How to Use
 
