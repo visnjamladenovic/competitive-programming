@@ -5,20 +5,22 @@ import java.util.Set;
 
 public class Longest_Consecutive_Sequence {
     public int longestConsecutive(int[] nums) {
-        Set<Integer> set = new HashSet<>();
-        for(int num:nums) set.add(num);
+        HashSet<Integer> set = new HashSet<>();
+        for (int x : nums) set.add(x);
 
         int longest=0;
-        for(int num:set){
-            int current = num;
-            int streak = 1;
-
-            while(set.contains(current+1)){
-                current++;
-                streak++;
+        for(int x:set){
+            if(!set.contains(x-1)){
+                int current=x;
+                int len=1;
+                while(set.contains(current+1)){
+                    current++;
+                    len++;
+                }
+                longest=Math.max(longest,len);
             }
-            longest=Math.max(longest,streak);
         }
         return longest;
+
     }
 }
